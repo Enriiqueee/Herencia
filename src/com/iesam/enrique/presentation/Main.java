@@ -52,6 +52,5 @@ public class Main {
         horno3.setTemperatura("400 Cº");
         horno3.getPizzaBarbacoa(barbacoa);
 
-        System.out.println();
     }
 }
