@@ -1,16 +1,16 @@
 package com.iesam.enrique.domain.models;
 
 public class Pizza {
-    private String id;
+    private Integer id;
     private String nombre;
-    private String salsa;
-    private String extras;
+    protected String salsa;
+    protected String extras;
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
